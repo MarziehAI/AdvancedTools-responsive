@@ -53,3 +53,16 @@ p {
 .about {
   color: var(--primary-color);
 }
+@media(max-width:576px) {
+        body {
+            color: red;
+        }
+
+        img {
+            display: block;
+        }
+        h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+    }
