@@ -1,0 +1,55 @@
+:root {
+  --primary-color: green;
+  --secondary-color: yellow;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+p {
+  font-size: 20px;
+}
+.details {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.details a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.contact {
+  border: 1px solid black;
+  margin-top: 40px;
+}
+.about {
+  border: 1px solid black;
+  margin: 20px;
+}
+.contact {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.about {
+  color: var(--primary-color);
+}
